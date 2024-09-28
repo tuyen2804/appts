@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="grey_custom">#800A1C26</color>
+    <color name="pink_white">#FFEBCD</color>
+    <color name="pink_white2">#FAA460</color>
+    <color name="white1">#D3D3D3</color>
+    <color name="sky_blue">#87CEEB</color> <!-- Màu xanh da trời nhạt -->
+
+    <!-- Thêm 20 màu khác -->
+    <color name="deep_blue">#00008B</color> <!-- Xanh đậm -->
+    <color name="light_green">#90EE90</color> <!-- Xanh lá nhạt -->
+    <color name="gold">#FFD700</color> <!-- Vàng kim -->
+    <color name="dark_orange">#FF8C00</color> <!-- Cam đậm -->
+    <color name="violet">#EE82EE</color> <!-- Tím nhạt -->
+    <color name="midnight_blue">#191970</color> <!-- Xanh dương đậm -->
+    <color name="forest_green">#228B22</color> <!-- Xanh rừng -->
+    <color name="lavender">#E6E6FA</color> <!-- Oải hương -->
+    <color name="coral">#FF7F50</color> <!-- Cam san hô -->
+    <color name="indigo">#4B0082</color> <!-- Chàm -->
+    <color name="crimson">#DC143C</color> <!-- Đỏ thẫm -->
+    <color name="slate_gray">#708090</color> <!-- Xám xanh -->
+    <color name="tomato">#FF6347</color> <!-- Đỏ cà chua -->
+    <color name="pale_goldenrod">#EEE8AA</color> <!-- Vàng nhạt -->
+    <color name="khaki">#F0E68C</color> <!-- Vàng kaki -->
+    <color name="light_coral">#F08080</color> <!-- Cam san hô nhạt -->
+    <color name="dark_cyan">#008B8B</color> <!-- Xanh lục đậm -->
+    <color name="light_sea_green">#20B2AA</color> <!-- Xanh biển nhạt -->
+    <color name="orchid">#DA70D6</color> <!-- Hoa lan tím -->
+    <color name="peru">#CD853F</color> <!-- Nâu Peru -->
+    <color name="red_orange">#FF4500</color> <!-- Đỏ cam -->
+
+</resources>
