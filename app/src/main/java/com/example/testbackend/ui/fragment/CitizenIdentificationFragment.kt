@@ -104,6 +104,10 @@ class CitizenIdentificationFragment : Fragment() {
         binding.menuDate.setOnClickListener {
             datePickerHelper.showDatePickerDialog(binding.txtDateIssue)
         }
+        binding.menuIssuePlace.setOnClickListener(){
+            val cities = databaseHelper.getCities()
+            popupMenuHelper.showPopupMenu(it, cities,binding.txtIssuePlace)
+        }
 
         binding.menuDatebirth.setOnClickListener {
             datePickerHelper.showDatePickerDialog(binding.txtDatebirth)
@@ -140,23 +144,24 @@ class CitizenIdentificationFragment : Fragment() {
         // Tạo đối tượng Student
         val student = Student(
             accountId = accountId ?: "1",
-            urlImageStudent = urlStudent ?: "",
-            urlFrontCard = urlFrontCard ?: "",
-            urlBackCard = urlBackCard ?: "",
+            photoUrl = urlStudent ?: "",
+            idCardFrontUrl = urlFrontCard ?: "",
+            idCardBackUrl = urlBackCard ?: "",
             fullName = binding.txtName.text.toString(),
             gender = binding.txtGender.text.toString(),
             birthDate = binding.txtDatebirth.text.toString(),
-            city = binding.txtCity.text.toString(),
-            district = binding.txtDistrict.text.toString(),
-            ward = binding.txtWard.text.toString(),
+            birthCity = binding.txtCity.text.toString(),
+            birthDistrict = binding.txtDistrict.text.toString(),
+            birthWard = binding.txtWard.text.toString(),
             idNumber = binding.txtCardNumber1.text.toString(),
             issueDate = binding.txtDateIssue.text.toString(),
+            issuePlace = binding.txtIssuePlace.text.toString(),
             nationality = binding.txtNationality.text.toString(),
             ethnicity = binding.txtEthnicity.text.toString(),
             religion = binding.txtReligion.text.toString()
         )
-        Log.d("uploadStudentData", "City: ${student.city}")
-        Log.d("uploadStudentData", "District: ${student.district}")
+        Log.d("uploadStudentData", "City: ${student.birthCity}")
+        Log.d("uploadStudentData", "District: ${student.birthDistrict}")
         Log.d("uploadStudentData", "Ward: ${binding.txtWard.text.toString()}")
 
         // Chuyển đổi Student thành JSON

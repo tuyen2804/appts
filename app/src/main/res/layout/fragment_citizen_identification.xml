@@ -319,6 +319,32 @@
                             android:layout_height="20dp"
                             android:background="@drawable/ic_date" />
                     </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Nơi cấp" />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_btn2"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:padding="8dp">
+
+                        <EditText
+                            android:id="@+id/txtIssuePlace"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@color/white" />
+
+                        <ImageView
+                            android:id="@+id/menuIssuePlace"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:background="@drawable/ic_chevron_down" />
+                    </LinearLayout>
 
                     <TextView
                         android:layout_width="wrap_content"

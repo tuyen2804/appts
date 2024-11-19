@@ -30,7 +30,7 @@
         android:id="@+id/txtName"
         android:layout_marginTop="12dp"
         android:padding="8dp"
-        android:background="@drawable/bg_input"
+        android:background="@drawable/bg_btn2"
         android:hint="Điền thông tin họ tên trên CMND/CCCD"
         />
     <TextView
@@ -46,7 +46,7 @@
         android:layout_marginTop="12dp"
         android:padding="8dp"
         android:id="@+id/txtEmail"
-        android:background="@drawable/bg_input"
+        android:background="@drawable/bg_btn2"
         android:hint="Điền chính xác email để nhận thông tin"/>
     <TextView
         android:layout_width="wrap_content"
@@ -54,14 +54,14 @@
         android:textColor="@color/black"
         android:layout_marginTop="12dp"
         android:textStyle="bold"
-        android:text="Số điện thoa"/>
+        android:text="Số điện thoai"/>
     <com.google.android.material.textfield.TextInputEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/black"
         android:padding="8dp"
         android:id="@+id/txtPhoneNumber"
-        android:background="@drawable/bg_input"
+        android:background="@drawable/bg_btn2"
         android:layout_marginTop="12dp"
         android:hint="Nhập số điện thoại"/>
     <TextView
@@ -77,7 +77,7 @@
         android:textColor="@color/black"
         android:padding="8dp"
         android:id="@+id/txtPassword1"
-        android:background="@drawable/bg_input"
+        android:background="@drawable/bg_btn2"
         android:layout_marginTop="12dp"
         android:hint="Nhập mật khẩu"/>
     <TextView
@@ -93,7 +93,7 @@
         android:layout_marginTop="12dp"
         android:padding="8dp"
         android:id="@+id/txtPassword2"
-        android:background="@drawable/bg_input"
+        android:background="@drawable/bg_btn2"
         android:hint="Xác nhận lại mật khẩu"/>
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="match_parent"

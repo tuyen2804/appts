@@ -7,7 +7,7 @@
     <color name="pink_white">#FFEBCD</color>
     <color name="pink_white2">#FAA460</color>
     <color name="white1">#D3D3D3</color>
-    <color name="sky_blue">#87CEEB</color> <!-- Màu xanh da trời nhạt -->
+    <color name="sky_blue">#C7E7F4</color> <!-- Màu xanh da trời nhạt -->
 
     <!-- Thêm 20 màu khác -->
     <color name="deep_blue">#00008B</color> <!-- Xanh đậm -->
@@ -31,5 +31,6 @@
     <color name="orchid">#DA70D6</color> <!-- Hoa lan tím -->
     <color name="peru">#CD853F</color> <!-- Nâu Peru -->
     <color name="red_orange">#FF4500</color> <!-- Đỏ cam -->
+    <color name="light_sky_blue">#F0F8FF</color>
 
 </resources>

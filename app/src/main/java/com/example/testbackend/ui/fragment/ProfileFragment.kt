@@ -1,32 +1,35 @@
 package com.example.testbackend.ui.fragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.testbackend.R
+import com.example.testbackend.databinding.FragmentProfileBinding
+import com.example.testbackend.ui.activity.BackgroundStudentActivity
 
-/**
- * A simple [Fragment] subclass.
- * Use the [ProfileFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+
 class ProfileFragment : Fragment() {
-    // TODO: Rename and change types of parameters
-    private var param1: String? = null
-    private var param2: String? = null
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
+    private var _binding: FragmentProfileBinding?=null
+    private val binding get()=_binding!!
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        _binding=FragmentProfileBinding.inflate(inflater,container,false)
+        binding.btnBackgroundStudent.setOnClickListener(){
+            var intent=Intent(requireContext(),BackgroundStudentActivity::class.java)
+            startActivity(intent)
+        }
+        return binding.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding=null
     }
 
 }

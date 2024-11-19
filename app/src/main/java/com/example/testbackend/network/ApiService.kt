@@ -1,8 +1,9 @@
 package com.example.testbackend.network
 
 import com.example.testbackend.model.AuthResponse
+import com.example.testbackend.model.Comment
 import com.example.testbackend.model.Event
-import com.example.testbackend.model.Music
+import com.example.testbackend.model.Student
 import com.example.testbackend.model.User
 import com.google.gson.JsonObject
 import okhttp3.MultipartBody
@@ -14,6 +15,7 @@ import retrofit2.http.Header
 import retrofit2.http.Multipart
 import retrofit2.http.POST
 import retrofit2.http.Part
+import retrofit2.http.Query
 
 interface ApiService {
     @POST("/api/accounts/login")
@@ -32,8 +34,7 @@ interface ApiService {
         @Body event: Event,
         @Header("Authorization") authToken: String
     ): Call<Void>
-    @GET("/api/music")
-    fun getAllMusic(): Call<List<Music>>
+
     @Multipart
     @POST("/api/students/saveOrUpdate")
     fun uploadStudentData(
@@ -43,4 +44,13 @@ interface ApiService {
         @Part idBack: MultipartBody.Part?            // Ảnh mặt sau CMND/CCCD
     ): Call<JsonObject>
 
+    @GET("/api/students/getStudent")
+    fun getStudentData(
+        @Query ("accountId") accountId:String
+    ): Call<JsonObject>
+    @POST("/comments")
+    fun postComment(@Body comment: Comment): Call<Comment>
+
+    @GET("/api/comments")
+    fun getComments(): Call<List<Comment>>
 }

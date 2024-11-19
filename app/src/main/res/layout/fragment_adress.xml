@@ -41,7 +41,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -75,7 +75,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -115,7 +115,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -150,7 +150,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="8dp"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:id="@+id/txtNbhousePermanent"/>
 
                 </LinearLayout>
@@ -185,7 +185,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -219,7 +219,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -259,7 +259,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -294,7 +294,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:padding="8dp"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:id="@+id/txtNbhouseContact"/>
 
                 </LinearLayout>
@@ -328,7 +328,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -362,7 +362,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -394,7 +394,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:id="@+id/txtSchoolCL10_1"/>
             <LinearLayout
@@ -426,7 +426,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -460,7 +460,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -492,7 +492,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:id="@+id/txtSchoolCL10_2"/>
             <LinearLayout
@@ -524,7 +524,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -558,7 +558,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -590,7 +590,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:id="@+id/txtSchoolCL11_1"/>
             <LinearLayout
@@ -622,7 +622,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -656,7 +656,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -688,7 +688,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:id="@+id/txtSchoolCL11_2"/>
             <LinearLayout
@@ -720,7 +720,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -754,7 +754,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -786,7 +786,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:id="@+id/txtSchoolCL12_1"/>
             <LinearLayout
@@ -818,7 +818,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -852,7 +852,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/bg_input"
+                        android:background="@drawable/bg_btn2"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
                         android:padding="8dp">
@@ -884,7 +884,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/bg_input"
+                android:background="@drawable/bg_btn2"
                 android:padding="8dp"
                 android:layout_marginBottom="30dp"
                 android:id="@+id/txtSchoolCL12_2"/>
@@ -896,6 +896,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Hoàn tất"
+    android:background="@color/red"
     android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

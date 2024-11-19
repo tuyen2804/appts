@@ -35,6 +35,7 @@ class HomeActivity : AppCompatActivity() {
         val btnProfile = findViewById<LinearLayout>(R.id.btnProfile)
         val btnNews = findViewById<LinearLayout>(R.id.btnNews)
 
+
         btnHome.setOnClickListener {
             replaceFragment(HomeFragment())
         }
